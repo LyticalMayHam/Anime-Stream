@@ -1,36 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-main {
-  padding: 20px;
 }
 
 .anime-card {
-  background: white;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
   display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
 }
 
 .anime-image img {
-  max-width: 100px;
+  width: 100px;
 }
 
 .anime-details {
-  margin-left: 20px;
+  padding: 10px;
 }
 
 .error {
   color: red;
+}
+
+.anime-detail img {
+  width: 200px; /* Adjust as needed */
 }
